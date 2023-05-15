@@ -5,7 +5,7 @@ name: Deploy Lambda to CloudFront
 on:
   push:
     branches:
-      - development
+      - main
 
 jobs:
   deploy:
